@@ -4,6 +4,11 @@ In that case, you might want to use BFS instead or implement DFS using an explic
 
 Here we provide a template using an explicit stack:
 
+Time Complexity: O(V + E). Here, V represents the number of vertices, and E represents the number of edges. 
+We need to check every vertex and traverse through every edge in the graph.
+
+Space Complexity: O(V). Either the manually created stack or the recursive call stack can store up to V vertices.
+
 /*
  * Return true if there is a path from cur to target.
  */
@@ -24,3 +29,8 @@ boolean DFS(int root, int target) {
     }
     return false;
 }
+
+Time Complexity: O(V + E). Here, V represents the number of vertices, and E represents the number of edges. 
+We need to check every vertex and traverse through every edge in the graph.
+
+Space Complexity: O(V). Either the manually created stack or the recursive call stack can store up to V vertices.

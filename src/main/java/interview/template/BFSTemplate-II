@@ -5,6 +5,14 @@ If so, we can add a hash set to the code above to solve this problem.
 Here is the pseudocode after modification:
 
 
+Time Complexity: O(V + E). Here, V represents the number of vertices, and E represents the number of edges. 
+We need to check every vertex and traverse through every edge in the graph. 
+The time complexity is the same as it was for the DFS approach.
+
+Space Complexity: O(V). Generally, we will check if a vertex has been visited before adding it to the queue, 
+so the queue will use at most O(V) space. Keeping track of which vertices have been visited will also require O(V) space.
+
+
 
 /**
  * Return the length of the shortest path between root and target node.
@@ -35,3 +43,4 @@ int BFS(Node root, Node target) {
     }
     return -1;          // there is no path from root to target
 }
+

@@ -1,0 +1,18 @@
+	Deque<Integer> queue = new ArrayDeque<>();
+
+	private boolean findBFSValidPath(List<Integer>[] graph, int source, int destination) {
+        Deque<Integer> queue = new ArrayDeque<>();
+        queue.addLast(source);
+        while(!queue.isEmpty()) {
+            int val = queue.removeFirst();
+            if (val == destination) return true;
+            List<Integer> neighbors = graph[val];
+            for(int neighbor : neighbors) {
+                if (visited[neighbor] == 0) {
+                    visited[neighbor] = 1;
+                    queue.addLast(neighbor) ;
+                }
+            }
+        }
+        return false;
+    }
