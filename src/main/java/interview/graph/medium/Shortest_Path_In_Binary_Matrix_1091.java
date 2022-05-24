@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShortestPathInBinaryMatrix1091 {
+public class Shortest_Path_In_Binary_Matrix_1091 {
 	
 	class Solution {
 	    

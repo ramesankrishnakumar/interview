@@ -1,6 +1,6 @@
 package interview.easy;
 
-public class StringToInteger8 {
+public class String_To_Integer_8 {
 	
 	class Solution {
 		

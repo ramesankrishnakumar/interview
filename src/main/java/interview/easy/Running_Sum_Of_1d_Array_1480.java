@@ -2,7 +2,7 @@ package interview.easy;
 
 import java.util.Arrays;
 
-public class RunningSumOf1dArray1480 {
+public class Running_Sum_Of_1d_Array_1480 {
 	class Solution {
 		private int i = 0;
 

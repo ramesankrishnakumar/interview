@@ -1,6 +1,6 @@
-package interview.easy;
+package interview.dp.easy;
 
-public class ClimbingStairs70 {
+public class Climbing_Stairs_70 {
 
 	class Solution {
 		public int climbStairs(int n) {

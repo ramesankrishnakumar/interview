@@ -1,12 +1,13 @@
 package interview.medium;
 
-public class BestTimeToBuySellStockII122 {
+public class Best_Time_To_Buy_Sell_Stock_II_122 {
 	class Solution {
 
 		public int maxProfit(int[] prices) {
 			return solutionApproach(prices);
 		}
 
+		@SuppressWarnings("unused")
 		private int myApproach(int[] prices) {
 			if (prices.length == 1)
 				return 0;

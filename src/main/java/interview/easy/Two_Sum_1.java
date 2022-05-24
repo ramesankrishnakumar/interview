@@ -3,7 +3,7 @@ package interview.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class Two_Sum_1 {
 
 	class Solution {
 		public int[] twoSum(int[] nums, int target) {

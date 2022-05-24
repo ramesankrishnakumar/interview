@@ -3,7 +3,7 @@ package interview.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class validAnagram242 {
+public class Valid_Anagram_242 {
 	class Solution {
 		public boolean isAnagram(String s, String t) {
 
@@ -23,10 +23,7 @@ public class validAnagram242 {
 					lookup.put(ch2, val - 1);
 			}
 
-			if (lookup.entrySet().isEmpty())
-				return true;
-			else
-				return false;
+			return(lookup.entrySet().isEmpty());
 		}
 	}
 }

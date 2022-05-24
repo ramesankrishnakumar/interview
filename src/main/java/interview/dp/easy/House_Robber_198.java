@@ -1,6 +1,6 @@
-package interview.medium;
+package interview.dp.easy;
 
-public class HouseRobber {
+public class House_Robber_198 {
 	
 	class Solution {
 	    

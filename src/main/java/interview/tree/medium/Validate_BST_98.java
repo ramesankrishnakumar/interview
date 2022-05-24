@@ -1,9 +1,9 @@
-package interview.medium;
+package interview.tree.medium;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ValidateBST {
+public class Validate_BST_98 {
 
 	class SolutionInOrderTraversal {
 

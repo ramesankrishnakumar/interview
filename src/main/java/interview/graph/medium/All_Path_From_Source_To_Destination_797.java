@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-public class AllPathFromSourceToDestination797 {
+public class All_Path_From_Source_To_Destination_797 {
 	class Solution {
 		private List<List<Integer>> allPaths = new ArrayList<>();
 		private int[][] graph = null;

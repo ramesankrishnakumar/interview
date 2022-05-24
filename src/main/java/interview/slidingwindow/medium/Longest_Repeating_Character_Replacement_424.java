@@ -1,6 +1,6 @@
 package interview.slidingwindow.medium;
 
-public class LongestRepeatingCharacterReplacement424 {
+public class Longest_Repeating_Character_Replacement_424 {
 	class Solution {
 		public int characterReplacement(String s, int k) {
 			int i = 0;

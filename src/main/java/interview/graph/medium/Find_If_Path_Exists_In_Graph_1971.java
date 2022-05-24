@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.List;
 
-public class FindIfPathExistsInGraph1971 {
+public class Find_If_Path_Exists_In_Graph_1971 {
 	class Solution {
 
 		private int[] visited = null;

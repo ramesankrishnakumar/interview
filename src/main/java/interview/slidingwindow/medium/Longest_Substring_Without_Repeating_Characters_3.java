@@ -3,7 +3,7 @@ package interview.slidingwindow.medium;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestSubstringWithoutRepeatingCharacters3 {
+public class Longest_Substring_Without_Repeating_Characters_3 {
 	class Solution {
 		public int lengthOfLongestSubstring(String s) {
 			int i = 0;

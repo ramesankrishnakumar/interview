@@ -1,6 +1,6 @@
 package interview.easy;
 
-public class PlusOne66 {
+public class Plus_One_66 {
 	class Solution {
 		public int[] plusOne(int[] digits) {
 

@@ -1,6 +1,6 @@
 package interview.slidingwindow.medium;
 
-public class LongestPalandromicSubstring5 {
+public class Longest_Palandromic_Substring_5 {
 	class Solution {
 		private int resultStart;
 		private int resultLength;

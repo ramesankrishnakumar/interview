@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RottingOranges994 {
+public class Rotting_Oranges_994 {
 	/*
 	 * Approach 1: Breadth-First Search (BFS) Intuition
 	 * 
